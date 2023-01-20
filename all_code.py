@@ -136,10 +136,10 @@ dpand = pd.read_csv(r"C:\Users\sware\OneDrive\Desktop\Data Science\ADS-ASSIGNMEN
 agri = pd.read_csv(r"C:\Users\sware\OneDrive\Desktop\Data Science\ADS-ASSIGNMENT 3-Clustering snd fitting\Agri_filtcsv.csv")
 
 #call the pre defined functions to plot and evaluate the graphs
-line_graph(dnump)
-scatter_plot(dnump)
-pair()
-kmeans_cluster()
-curve(dpand,"China")
-curve(dpand,"Brazil")
-agr(dpand, agri)
+line_graph(dnump) #call the line function to plot the line graph
+scatter_plot(dnump) #call scatter function to plot scatter plot
+pair() #call the pair function to plot pairplot
+kmeans_cluster() #call the kmeans function to evaluate the kmeans cluster and plot the same
+curve(dpand,"China") #call the curve function to plot the fit and data for China
+curve(dpand,"Brazil") #call the curve function to plot the fit and data for China
+agr(dpand, agri) #call agr function to compare agricultural land area and methane emission rate of Australia
